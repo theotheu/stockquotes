@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    max-width: 1480px;
+    min-width: 1240px;
+}
+
+tr:hover {
+    cursor: pointer
+}
+
+td {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.last_trade_price_only {
+    text-align: right;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.change {
+    text-align: right;
+}
+
+.open {
+    text-align: right;
+}
+
+.day_s_high {
+    text-align: right;
+}
+
+.day_s_low {
+    text-align: right;
+}
+
+.volume {
+    text-align: right;
+}
+
+.higher {
+    background-color: darkseagreen;
+}
+
+.lower {
+    background-color: coral;
+}
+
+#company {
+    padding-top: 12px;
+    clear: both;
+}
+
+.stockData {
+    float: left;
+    margin-top: 0px;
+}
+
+.winnersAndLosers {
+    float: right;
+    width: 400px;
+
+}
+
+.winnersAndLosers td {
+    font-size: 10px;
+    width: 100%;
+    cursor: auto;
+}
+
+#msg {
+    float: right;
+    font-family: Monaco, "Lucida Console", monospace;
+    font-size: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid grey;
+    overflow: scroll;
+}
