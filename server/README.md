@@ -5,6 +5,16 @@ Install packages
 ----------------
 `npm install`
 
+Requirements
+----------------
+Node.js must be installed.
+
+
+Configuration
+----------------
+*Make sure that the port you are using is available and does not conflict with others.*
+
+
 Run server
 ----------------
 `node server.js`
