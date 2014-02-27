@@ -33,7 +33,7 @@ Design (example)
   - show detail info for a company in de DOM table
 
 
-Concepten
+Concepts
 ---------
 * Events
 * Objects
@@ -53,7 +53,7 @@ Events
 // Copy here your code fragment from your assignment
 ```
 
-Objecten
+Objects
 --------
 *Explain with your code examples below.*
 ```sh
@@ -147,6 +147,7 @@ Canvas
 Chart library
 ------------
 *Explain with your code examples below. Explain the concepts that the library is based upon.*
+Tip: use d3.js
 ```sh
 // Copy here your code fragment from your assignment
 ```
