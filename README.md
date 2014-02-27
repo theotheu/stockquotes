@@ -11,7 +11,7 @@ Stockquotes
 
 > Use alternatives with reference to authentic en authoritative websites.
 
-> Tip: gebruik http://dillinger.io/ om je README.md te bewerken.
+> Tip: use http://dillinger.io/ to edit README.md.
 
 
 
@@ -20,7 +20,7 @@ Design (example)
 - __init__
   - read initial JSON file in object "series"
   - generate test/fake data with method "generateQuote"
-  - retrieve live data from Yahoo with a CORS request
+  - retrieve live data from Yahoo with a CORS request (example url: http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20csv%20where%20url%3D%27http%3A%2F%2Fdownload.finance.yahoo.com%2Fd%2Fquotes.csv%3Fs%3Dibm%2Borcl%26f%3Dsl1d1t1c1ohgv%26e%E2%80%8C%E2%80%8B%3D.csv%27&format=json&diagnostics=true&callback)
   - draw initial table. Use the DOM operations from the previous assignment
      - bind an event handler to every table row (DOM level 2). You can use this to display detailed information.
 - __loop__ (use one of the timer functions van JavaScript)
