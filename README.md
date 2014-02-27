@@ -1,105 +1,105 @@
-Stockquote
-=========
+Stockquotes
+===========
 
-&lt;Naam Student&gt;
+&lt;Name Student&gt;
 
-&lt;Studentnummer&gt;
+&lt;Student number&gt;
 
-> __Documentatie van onderstaande concepten is verplicht__.
+> __Documentation of the concepts below is mandatory__.
 
-> Maak gebruik van de verplichte literatuur, zoals boek, reader en websites.
+> You have to use mandatory literature like the book, reader and websites.
 
-> Geef alternatieven met referentie naar authentieke en gezaghebbende bronnen.
+> Use alternatives with reference to authentic en authoritative websites.
 
 > Tip: gebruik http://dillinger.io/ om je README.md te bewerken.
 
 
 
-Ontwerp (voorbeeld)
+Design (example)
 -------
 - __init__
-  - lees initële JSON file in object "series"
-  - genereer test/fake date met method "generateQuote"
-  - haal live data op bij Yahoo met een CORS request
-  - teken initële tabel. Gebruik hiervoor de DOM operaties
-     - installeer een eventhandler op elke tabelregel (DOM level 2). Deze kun je gebruiken om het koersverloop voor een company te tonen.
-- __loop__ (gebruik hiervoor een timer functie van JavaScript)
-  - genereer test/fake date met method "generateQuote"
-  - haal live data op bij Yahoo met een CORS request
-  - teken bijgewerkte tabel (in rood de dalers, in groen de stijgers, in blauw de gelijkblijvende)
+  - read initial JSON file in object "series"
+  - generate test/fake data with method "generateQuote"
+  - retrieve live data from Yahoo with a CORS request
+  - draw initial table. Use the DOM operations from the previous assignment
+     - bind an event handler to every table row (DOM level 2). You can use this to display detailed information.
+- __loop__ (use one of the timer functions van JavaScript)
+  - generate test/fake data with method "generateQuote"
+  - retrieve live data from Yahoo with a CORS request
+  - draw updated table (in rood de losers, in green de winners, in blue de one who don't change)
 - __methods__
-  - genereren van waarde. De genereerde waarde is 80% <= input <= 120%. Deze method heet "generateQuote"
-  - teken grafiek
-  - toon detail info voor een company in de DOM tabel
+  - generate stock value. The generated value is 80% <= input <= 120%. This method is called "generateQuote"
+  - draw graphics
+  - show detail info for a company in de DOM table
 
 
 Concepten
 ---------
 * Events
-* Objecten
+* Objects
 * this
-* Gebruik van &#95;&#95;proto&#95;&#95; en prototype
-* Simulatie van associatieve arrays in JavaScript
+* Use &#95;&#95;proto&#95;&#95; en prototype
+* Simulation of associative arrays in JavaScript
 * JSON
-* Gebruikte pattern volgens Addy Osmani
+* Used pattern according to Addy Osmani
 * CORS Request
 * Execution context
 * Canvas
 
 Events
 ------
-*Toelichten aan de hand van onderstaande code. Documenteer __alle__ events.*
+*Explain with your code examples below. Document __all__ events.*
 ```sh
-// Kopieer hier je codefragment
+// Copy here your code fragment from your assignment
 ```
 
 Objecten
 --------
-*Toelichten aan de hand van onderstaande code.*
+*Explain with your code examples below.*
 ```sh
-// Kopieer hier je codefragment
+// Copy here your code fragment from your assignment
 ```
 
 this
 --------
-*Toelichten aan de hand van onderstaande code. Geef minstens twee voorbeelden waarin je __this__ een verschillende context heeft, of kunt geven.*
+*Explain with your code examples below. Mention at least two examples where __this__ has a different context, or context can have a different context.*
 ```sh
-// Kopieer hier je eerste codefragment
+// Copy here your first code fragment from your assignment
 
-// Kopieer hier je tweede codefragment
+// Copy here your second fragment from your assignment
 ```
 
 &#95;&#95;proto&#95;&#95; en prototype
 --------
-*Toelichten aan de hand van onderstaande code.*
+*Explain with your code examples below.*
 ```sh
-// Kopieer hier je codefragment
+// Copy here your code fragment from your assignment
 ```
 
-Simulatie van associatieve arrays in JavaScript
+Simulation of associative arrays in JavaScript
 --------
-*Toelichten aan de hand van onderstaande code.*
+*Explain with your code examples below.*
 ```sh
-// Kopieer hier je codefragment
+// Copy here your code fragment from your assignment
 ```
 
 JSON
 --------
-*Toelichten aan de hand van onderstaande code.*
+*Explain with your code examples below.*
 ```sh
-// Kopieer hier je codefragment
+// Copy here your code fragment from your assignment
 ```
 
-Gebruikte pattern volgens Addy Osmani
+Used pattern according to Addy Osmani
 --------
-*Toelichten aan de hand van onderstaande code. Gebruik de literatuur op http://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjavascript*
+*Explain with your code examples below. Make use of the documentation on http://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjavascript*
 ```sh
-// Kopieer hier je codefragment
+// Copy here your code fragment from your assignment
 ```
 
 CORS Request
 ------------
-*Toelichten aan de hand van onderstaande code.*
+*Explain with your code examples below.*
 
 ```sh
 createCORSRequest: function (method, url) {
@@ -122,7 +122,7 @@ createCORSRequest: function (method, url) {
 
 Execution context
 ------------
-*Toelichten aan de hand van onderstaande code. Tip: bekijk een van de video's van JSConference 2013 op http://www.youtube.com/watch?v=iSxNCYcPAFk*
+*Explain with your code examples below. Tip: view one of the video's from the JSConference 2013 op http://www.youtube.com/watch?v=iSxNCYcPAFk*
 
 ```sh
 /* Next two lines will avoid eval, but create a new function */
@@ -138,16 +138,16 @@ cbfunc: function (data) {
 
 Canvas
 ------------
-*Toelichten aan de hand van onderstaande code.*
+*Explain with your code examples below.*
 
 ```sh
-// Kopieer hier je codefragment
+// Copy here your code fragment from your assignment
 ```
 
 Chart library
 ------------
-*Toelichten aan de hand van onderstaande code. Licht de concepten waarop de Chart library gebaseerd is.*
+*Explain with your code examples below. Explain the concepts that the library is based upon.*
 ```sh
-// Kopieer hier je codefragment
+// Copy here your code fragment from your assignment
 ```
 
